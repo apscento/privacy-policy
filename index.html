@@ -1,66 +1,167 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Regulamin i Polityka Prywatności | Apscento</title>
-    <style>
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #222;
-            max-width: 820px;
-            margin: 40px auto;
-            padding: 0 20px;
-            background-color: #fcfcfc;
-        }
-        h1 { color: #111; border-bottom: 2px solid #2ecc71; padding-bottom: 10px; }
-        h2 { color: #1b4332; margin-top: 30px; }
-        .disclaimer-box {
-            background-color: #eef9f1;
-            border-left: 4px solid #2ecc71;
-            padding: 15px;
-            margin: 20px 0;
-            border-radius: 4px;
-        }
-        p, li { color: #444; }
-        .footer { margin-top: 50px; font-size: 0.9em; color: #777; border-top: 1px solid #eee; padding-top: 15px; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Regulamin i Polityka Prywatności | Apscento</title>
+  <style>
+    :root {
+      --bg: #121212;
+      --card-bg: #1e1e1e;
+      --text: #e0e0e0;
+      --text-muted: #a0a0a0;
+      --accent: #CCFF00;
+      --border: #2a2a2a;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.7;
+      padding: 40px 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .back-link {
+      display: inline-block;
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 24px;
+      transition: opacity 0.2s ease;
+    }
+
+    .back-link:hover {
+      opacity: 0.8;
+      text-decoration: underline;
+    }
+
+    h1 {
+      color: #ffffff;
+      font-size: 26px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .date {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-bottom: 24px;
+      display: block;
+    }
+
+    .disclaimer-box {
+      background-color: rgba(204, 255, 0, 0.05);
+      border-left: 4px solid var(--accent);
+      padding: 16px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 32px;
+      font-size: 14px;
+    }
+
+    .disclaimer-box strong {
+      color: #ffffff;
+    }
+
+    h2 {
+      color: #ffffff;
+      font-size: 18px;
+      margin-top: 32px;
+      margin-bottom: 12px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 8px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: var(--text);
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 16px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    li strong, p strong {
+      color: #ffffff;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+  </style>
 </head>
 <body>
 
+  <div class="container">
+    <a href="index.html" class="back-link">&larr; Wróć do strony głównej</a>
+
     <h1>Regulamin i Polityka Prywatności – Apscento</h1>
-    <p>Ostatnia aktualizacja: 2026 r.</p>
+    <span class="date">Ostatnia aktualizacja: 22.08.2026 r.</span>
 
     <div class="disclaimer-box">
-        <strong>Ważna informacja (Wyłączenie odpowiedzialności):</strong> Wszelkie obliczenia, prognozy zarobków, szacunki podatkowe (w tym VAT, prowizje i koszty) prezentowane w aplikacji <strong>Driverstat</strong> mają charakter wyłącznie orientacyjny, pomocniczy i symulacyjny.
+      <strong>Ważna informacja (Wyłączenie odpowiedzialności):</strong> Wszelkie obliczenia, prognozy zarobków, szacunki podatkowe (w tym VAT, prowizje i koszty) prezentowane w aplikacji <strong>Driverstat</strong> mają charakter wyłącznie orientacyjny, pomocniczy i symulacyjny.
     </div>
 
     <h2>1. Postanowienia Ogólne i Administrator</h2>
-    <p>Właścicielem oraz administratorem aplikacji mobilnych wydawanych pod marką <strong>Apscento</strong> (w tym aplikacji <strong>Driverstat</strong>) jest Apscento. Kontakt: <strong>apscento@gmail.com</strong>.</p>
+    <p>Właścicielem oraz administratorem aplikacji mobilnych wydawanych pod marką <strong>Apscento</strong> (w tym aplikacji <strong>Driverstat</strong>) jest Apscento. Kontakt: <a href="mailto:apscento@gmail.com">apscento@gmail.com</a>.</p>
 
     <h2>2. Charakter wyliczeń i brak doradztwa podatkowego (Disclaimer)</h2>
     <ul>
-        <li>Aplikacja <strong>Driverstat</strong> służy do orientacyjnego monitorowania wskaźników oraz szacowania przychodów i kosztów.</li>
-        <li>Aplikacja <strong>nie jest programem księgowo-rachunkowym</strong> i <strong>nie świadczy usług doradztwa podatkowego, prawnego ani finansowego</strong> w rozumieniu obowiązujących przepisów prawa.</li>
-        <li>Rzeczywiste kwoty rozliczeń mogą różnić się od wyników prezentowanych w aplikacji z uwagi na zmiany przepisów podatkowych, indywidualne stawki, specyfikę umów flotowych, prowizje pośredników lub zaokrąglenia.</li>
-        <li>Twórca aplikacji nie ponosi odpowiedzialności za jakiekolwiek decyzje finansowe, podatkowe, biznesowe ani za ewentualne szkody lub straty wynikające z opierania się na prognozach generowanych przez aplikację. Użytkownik jest zobowiązany do samodzielnej weryfikacji rozliczeń z właściwym biurem rachunkowym lub partnerem flotowym.</li>
+      <li>Aplikacja <strong>Driverstat</strong> służy do orientacyjnego monitorowania wskaźników oraz szacowania przychodów i kosztów.</li>
+      <li>Aplikacja <strong>nie jest programem księgowo-rachunkowym</strong> i <strong>nie świadczy usług doradztwa podatkowego, prawnego ani finansowego</strong> w rozumieniu obowiązujących przepisów prawa.</li>
+      <li>Rzeczywiste kwoty rozliczeń mogą różnić się od wyników prezentowanych w aplikacji z uwagi na zmiany przepisów podatkowych, indywidualne stawki, specyfikę umów flotowych, prowizje pośredników lub zaokrąglenia.</li>
+      <li>Twórca aplikacji nie ponosi odpowiedzialności za jakiekolwiek decyzje finansowe, podatkowe, biznesowe ani za ewentualne szkody lub straty wynikające z opierania się na prognozach generowanych przez aplikację. Użytkownik jest zobowiązany do samodzielnej weryfikacji rozliczeń z właściwym biurem rachunkowym lub partnerem flotowym.</li>
     </ul>
 
     <h2>3. Przetwarzanie i ochrona danych (Polityka Prywatności)</h2>
-    <p>Aplikacje mogą przetwarzać podstawowe dane niezbędne do ich technicznego funkcjonowania:</p>
+    <p>Aplikacja <strong>Driverstat</strong> działa w pełni lokalnie i nie wymaga połączenia z internetem do swojego działania:</p>
     <ul>
-        <li>Dane wprowadzone przez użytkownika (np. stawki, godziny, wpisy statystyk) przechowywane lokalnie w pamięci urządzenia lub na bezpiecznym serwerze bazodanowym,</li>
-        <li>Dane logowania i uwierzytelniania konta użytkownika (w przypadku korzystania z funkcji chmurowych),</li>
-        <li>Anonimowe dane diagnostyczne (informacje o awariach i stabilności aplikacji).</li>
+      <li>Wszystkie dane wprowadzone przez użytkownika (stawki, zmiany, wydatki na paliwo, serwisy, naprawy, dane pojazdu, ustawienia rozliczeń flotowych) są przechowywane <strong>wyłącznie lokalnie</strong>, w bazie danych na urządzeniu użytkownika. Aplikacja nie wysyła tych danych na żaden zewnętrzny serwer.</li>
+      <li>Aplikacja <strong>nie wymaga zakładania konta ani logowania</strong> i nie posiada funkcji chmurowych ani synchronizacji między urządzeniami.</li>
+      <li>Aplikacja <strong>nie zbiera żadnych danych diagnostycznych, analitycznych ani statystyk użytkowania</strong> — nie zawiera narzędzi analitycznych ani reklamowych firm trzecich.</li>
+      <li>Aplikacja korzysta z uprawnienia do <strong>powiadomień</strong> (przypomnienie o wpisaniu zmiany, informacja o zbliżającym się końcu polisy OC) oraz uprawnienia <strong>uruchamiania po restarcie urządzenia</strong> (aby zaplanować przypomnienie od nowa po ponownym uruchomieniu telefonu). Żadne z tych uprawnień nie służy do zbierania ani przesyłania danych.</li>
     </ul>
 
     <h2>4. Bezpieczeństwo i prawa użytkownika</h2>
-    <p>Nie sprzedajemy ani nie przekazujemy danych podmiotom trzecim w celach marketingowych. Użytkownik ma pełne prawo do wglądu w swoje dane, ich modyfikacji oraz żądania całkowitego usunięcia konta poprzez kontakt na adres: <strong>apscento@gmail.com</strong>.</p>
+    <p>Ponieważ wszystkie dane pozostają wyłącznie na urządzeniu użytkownika, nie są sprzedawane, udostępniane ani przekazywane żadnym podmiotom trzecim. Użytkownik ma pełną kontrolę nad swoimi danymi bezpośrednio w aplikacji — może je edytować lub usunąć w dowolnym momencie (w tym poprzez funkcję resetu danych w ustawieniach aplikacji), a odinstalowanie aplikacji trwale usuwa wszystkie zapisane dane z urządzenia. W razie pytań kontakt: <a href="mailto:apscento@gmail.com">apscento@gmail.com</a>.</p>
 
-    <div class="footer">
-        <p>&copy; 2026 Apscento. Wszelkie prawa zastrzeżone.</p>
-    </div>
+    <footer>
+      &copy; 2026 Apscento. Wszelkie prawa zastrzeżone.
+    </footer>
+  </div>
 
 </body>
 </html>
